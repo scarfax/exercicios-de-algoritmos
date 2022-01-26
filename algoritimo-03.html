@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Exercícios FIT - Faculdade de Informática de Taquara</h1>
+
+    <script>
+
+        /* 3 - Os pares de instruções abaixo produzem o mesmo resultado? */
+
+        // A <- (4/2)+(2/4) e A <- 4/2+2/4
+
+        document.write("Valor de A:<br>");
+        var A1 = (4 / 2) + (2 / 4);
+        var A2 = 4 / 2 + 2 / 4;
+        document.write(A1 + "<br>");
+        document.write(A2 + "<br>");
+        if (A1 == A2) {
+            document.write("Os valores são iguais!");
+        } else {
+            document.write("Valores diferentes!");
+        }
+        document.write("<hr>");
+
+        // B <- 4/(2+2)/4 e B <- 4/2+2/4 
+
+        document.write("Valor de B:<br>");
+        var B1 = 4 / (2 + 2) / 4;
+        var B2 = 4 / 2 + 2 / 4;
+        document.write(B1 + "<br>");
+        document.write(B2 + "<br>");
+        if (B1 == B2) {
+            document.write("Os valores são iguais!");
+        } else {
+            document.write("Valores diferentes!");
+        }
+        document.write("<hr>");
+
+        // C <- (4+2)*2-4 e C <- 4+2*2-4
+
+        document.write("Valor de C:<br>");
+        var C1 = (4 + 2) * 2 - 4;
+        var C2 = 4 + 2 * 2 - 4;
+        document.write(C1 + "<br>");
+        document.write(C2 + "<br>");
+        if (C1 == C2) {
+            document.write("Os valores são iguais!");
+        } else {
+            document.write("Valores diferentes!");
+        }
+        document.write("<hr>");
+
+
+    </script>
+</body>
+
+</html>

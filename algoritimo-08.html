@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Lógica de Programação JavaScript</h1>
+
+    <script>
+
+        /* 8 - Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
+        brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total 
+        de eleitores.  */
+
+        var candidato1 = parseInt(prompt("Digite o número de votos do primeiro candidato:"));
+        var candidato2 = parseInt(prompt("Digite o número de votos do segundo candidato:"));
+        var candidato3 = parseInt(prompt("Digite o número de votos do terceiro candidato:"));
+        var brancosNulos = parseInt(prompt("Digite o número de votos brancos e nulos:"));
+
+        var totalVotos = candidato1 + candidato2 + candidato3 + brancosNulos
+
+        document.write("O candidato 1 recebeu " + candidato1 * 100 / totalVotos + " % dos votos<br>");
+        document.write("O candidato 2 recebeu " + candidato2 * 100 / totalVotos + " % dos votos<br>");
+        document.write("O candidato 3 recebeu " + candidato3 * 100 / totalVotos + " % dos votos<br>");
+        document.write("Tiveram " + brancosNulos * 100 / totalVotos + " % de votos brancos e nulos<br>");
+        document.write("O número de votos total foi: " + totalVotos + "<br>")
+
+
+
+    </script>
+</body>
+
+</html>

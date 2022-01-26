@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Lógica de Programação JavaScript</h1>
+
+    <script>
+
+        /* 7 - Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade 
+        dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.  */
+
+        var anoNascimento = parseInt(prompt("Qual o ano você nasceu?"));
+        var anoAtual = parseInt(prompt("Qual o ano atual?"));
+
+        var idadeAnos = anoAtual - anoNascimento;
+        var idadeMeses = idadeAnos * 12;
+
+        document.write("Sua idade em dias: " + idadeAnos * 365)
+
+    </script>
+</body>
+
+</html>

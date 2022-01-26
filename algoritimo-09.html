@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Lógica de Programação JavaScript</h1>
+
+    <script>
+
+        /* 9 - Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. 
+        Calcular e escrever o valor do novo salário */
+
+        var salario = parseFloat(prompt("Digite seu salário:"));
+        var reajuste = parseFloat(prompt("Digite o persentual de reajuste:"));
+        var percentual = salario / 100 * reajuste;
+        var novoSalario = salario + percentual;
+
+        document.write("Salário atual: " + salario + "<br>");
+        document.write("Percentual de reajuste: " + reajuste + "%<br>");
+        document.write("Salário após reajuste: " + novoSalario + "<br>");
+
+    </script>
+</body>
+
+</html>
