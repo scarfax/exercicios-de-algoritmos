@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Exercícios FIT - Faculdade de Informática de Taquara</h1>
+    <p>13 - Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno.<br>
+        Considerar que a média é ponderada e que o peso das notas é 2, 3 e 5. Fórmula para o cálculo da média
+        final é </p>
+    <img src="img/exercicio13.png" alt="média final"><br>
+
+    <script>
+
+        var nota1 = parseFloat(prompt("Digite a primeira nota do aluno:"));
+        var nota2 = parseFloat(prompt("Digite a segunda nota do aluno:"));
+        var nota3 = parseFloat(prompt("Digite a terceira nota do aluno:"));
+
+        var mediaFinal = (((nota1 * 2) + (nota2 * 3) + (nota3 * 5)) / 10);
+
+        document.write("A média final do aluno é: " + mediaFinal + "<br>");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Exercícios FIT - Faculdade de Informática de Taquara</h1>
+    <p>29 - Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2
+        maiores</p>
+
+    <script>
+
+        var n1 = parseInt(prompt("Digite um número:"));
+        var n2 = parseInt(prompt("Digite um número diferente do primeiro:"));
+        var n3 = parseInt(prompt("Digite um número diferente dos anteriores:"));
+
+
+        if (n3 < n1 && n1 < n2) {
+            document.write(n1 + n2);
+
+
+        } else if (n2 < n1 && n1 < n3) {
+            document.write(n1 + n3);
+
+        }
+        else {
+            document.write(n2 + n3);
+        }
+
+
+    </script>
+</body>
+
+</html>

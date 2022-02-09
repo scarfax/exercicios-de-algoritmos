@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lógica de Programação JavaScript</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+    <h1>Exercícios FIT - Faculdade de Informática de Taquara</h1>
+    <p>21 - Ler a hora de início e a hora de fim de um jogo de Xadrez (considere apenas horas inteiras, sem os
+        minutos) e calcule a duração do jogo em horas, sabendo-se que o tempo máximo de duração do jogo é
+        de 24 horas e que o jogo pode iniciar em um dia e terminar no dia seguinte</p>
+
+    <script>
+
+
+        var horaInicio = parseInt(prompt("Digite a hora início:"));
+        var horaFim = parseInt(prompt("Digite a hora final:"));
+
+        var tempoJogo = horaFim - horaInicio
+
+        if (tempoJogo > 24) {
+            document.write("O jogo não pode durar mais que 24h");
+        } else {
+            document.write(n2 + ", " + n1);
+        }
+
+
+    </script>
+</body>
+
+</html>
