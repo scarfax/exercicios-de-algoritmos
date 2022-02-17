@@ -15,12 +15,12 @@
     <script>
 
 
-        var horaInicio = parseInt(prompt("Digite a hora início:"));
-        var horaFim = parseInt(prompt("Digite a hora final:"));
+        var startTime = parseInt(prompt("Digite a hora início:"));
+        var EndTime = parseInt(prompt("Digite a hora final:"));
 
-        var tempoJogo = horaFim - horaInicio
+        var gameTime = EndTime - startTime
 
-        if (tempoJogo > 24) {
+        if (gameTime > 24) {
             document.write("O jogo não pode durar mais que 24h");
         } else {
             document.write(n2 + ", " + n1);

@@ -14,14 +14,14 @@
     <script>
 
 
-        var salario = parseFloat(prompt("Digite seu salário:"));
-        var reajuste = parseFloat(prompt("Digite o persentual de reajuste:"));
-        var percentual = salario / 100 * reajuste;
-        var novoSalario = salario + percentual;
+        let currentSalary = parseFloat(prompt("Digite seu salário:"));
+        let readjustment = parseFloat(prompt("Digite o persentual de reajuste:"));
+        let percentage = currentSalary / 100 * readjustment;
+        let newSalary = currentSalary + percentage;
 
-        document.write("Salário atual: " + salario + "<br>");
-        document.write("Percentual de reajuste: " + reajuste + "%<br>");
-        document.write("Salário após reajuste: " + novoSalario + "<br>");
+        document.write("Salário atual: " + currentSalary + "<br>");
+        document.write("Percentual de reajuste: " + readjustment + "%<br>");
+        document.write("Salário após reajuste: " + newSalary + "<br>");
 
     </script>
 </body>

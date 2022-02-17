@@ -14,20 +14,18 @@
 
     <script>
 
-        var candidato1 = parseInt(prompt("Digite o número de votos do primeiro candidato:"));
-        var candidato2 = parseInt(prompt("Digite o número de votos do segundo candidato:"));
-        var candidato3 = parseInt(prompt("Digite o número de votos do terceiro candidato:"));
-        var brancosNulos = parseInt(prompt("Digite o número de votos brancos e nulos:"));
+        var candidate1 = parseInt(prompt("Digite o número de votos do primeiro candidato:"));
+        var candidate2 = parseInt(prompt("Digite o número de votos do segundo candidato:"));
+        var candidate3 = parseInt(prompt("Digite o número de votos do terceiro candidato:"));
+        var nullVotes = parseInt(prompt("Digite o número de votos brancos e nulos:"));
 
-        var totalVotos = candidato1 + candidato2 + candidato3 + brancosNulos
+        var totalVotes = candidate1 + candidate2 + candidate3 + nullVotes
 
-        document.write("O candidato 1 recebeu " + candidato1 * 100 / totalVotos + " % dos votos<br>");
-        document.write("O candidato 2 recebeu " + candidato2 * 100 / totalVotos + " % dos votos<br>");
-        document.write("O candidato 3 recebeu " + candidato3 * 100 / totalVotos + " % dos votos<br>");
-        document.write("Tiveram " + brancosNulos * 100 / totalVotos + " % de votos brancos e nulos<br>");
-        document.write("O número de votos total foi: " + totalVotos + "<br>")
-
-
+        document.write("O candidato 1 recebeu " + candidate1 * 100 / totalVotos + " % dos votos<br>");
+        document.write("O candidato 2 recebeu " + candidate2 * 100 / totalVotos + " % dos votos<br>");
+        document.write("O candidato 3 recebeu " + candidate3 * 100 / totalVotos + " % dos votos<br>");
+        document.write("Tiveram " + nullVotes * 100 / totalVotes + " % de votos brancos e nulos<br>");
+        document.write("O número de votos total foi: " + totalVotes + "<br>")
 
     </script>
 </body>
